@@ -15,6 +15,31 @@ windows, linux 지원
 Dependency-Mapping을 사용해서, jre, syft 다운로드 주소를 변경하는 예제입니다.  
 [상세설명](https://www.notion.so/bbear/BootBuildImage-dependency-mapping-3e8aa1b5efba4e03b3108a581b35db85)
 
+## 주요 설정
+* [build.gradlw.kts](build.gradle.kts)
+    ```kotlin
+    tasks.bootBuildImage {
+        runImage.set("paketobuildpacks/run@sha256:68810b51eea5f7c7f7f5d106b50a2bedde112ce029af004f5e873280fe68d92f")
+        builder.set("paketobuildpacks/builder@sha256:3d431026a28afdfefc20ecf16d54b0ff1a280c4ae8cc6da10c21ea7e01624473")
+        bindings.add("${getBindingPath()}:/platform/bindings")
+    }
+    ```
+* [docker/bindings](docker/bindings)
+    ```text
+    bindings
+    ├─bellsoft-config
+    │      89860504694a05a75688991ac24281cb84cfa61d48c973ddee7559fa7fc0a60e
+    │      bf01d735c28d2614a91b1298adf45af60ed8699014876cc1d8158ade90fcdb32
+    │      info.txt
+    │      type
+    │
+    └─binary
+            bellsoft-jre17.0.6+10-linux-amd64.tar.gz
+            syft_0.62.1_linux_amd64.tar.gz
+    ```
+
+
+
 ## Sample Build Log
 ```
 > Task :bootBuildImage
