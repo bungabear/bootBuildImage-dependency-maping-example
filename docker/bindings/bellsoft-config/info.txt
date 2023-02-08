@@ -1,0 +1,13 @@
+file cache: https://www.proxysite.com/
+
+jre 17.0.6
+org: https://github.com/paketo-buildpacks/bellsoft-liberica/blob/7b34a83139594db071008e9981ab633bb1744d52/buildpack.toml#L216
+sha: bf01d735c28d2614a91b1298adf45af60ed8699014876cc1d8158ade90fcdb32
+uri: https://github.com/bell-sw/Liberica/releases/download/17.0.6+10/bellsoft-jre17.0.6+10-linux-amd64.tar.gz
+cacheUri: file:///platform/bindings/binary/bellsoft-jre17.0.6+10-linux-amd64.tar.gz
+
+syft 0.62.1
+org: https://github.com/paketo-buildpacks/syft/blob/740063315c7e15374ffc4c3ddc5a3aa25305a48a/buildpack.toml
+sha: 89860504694a05a75688991ac24281cb84cfa61d48c973ddee7559fa7fc0a60e
+uri: https://github.com/anchore/syft/releases/download/v0.62.1/syft_0.62.1_linux_amd64.tar.gz
+cacheUri: file:///platform/bindings/binary/syft_0.62.1_linux_amd64.tar.gz
