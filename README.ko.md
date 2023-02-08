@@ -13,7 +13,7 @@ windows, linux 지원
 
 ## 설명
 Dependency-Mapping을 사용해서, jre, syft 다운로드 주소를 변경하는 예제입니다.  
-[상세설명](https://www.notion.so/bbear/BootBuildImage-dependency-mapping-3e8aa1b5efba4e03b3108a581b35db85)
+[상세설명](https://www.notion.so/bbear/BootBuildImage-dependency-mapping-567210ea3e06452090ce5983a9acfc72)
 
 ## 주요 설정
 * [build.gradlw.kts](build.gradle.kts)

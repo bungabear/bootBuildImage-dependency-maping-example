@@ -13,7 +13,7 @@ Tested on windows, linux
 
 ## Description
 Using Dependency-Mapping, Change dependency uri for jre, syft.  
-[Detail info(Korean)](https://www.notion.so/bbear/BootBuildImage-dependency-mapping-3e8aa1b5efba4e03b3108a581b35db85)
+[Detail info(Korean)](https://www.notion.so/bbear/BootBuildImage-dependency-mapping-567210ea3e06452090ce5983a9acfc72)
 
 ## Notable config
 * [build.gradlw.kts](build.gradle.kts)
